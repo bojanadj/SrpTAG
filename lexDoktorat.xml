@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE mcgrammar SYSTEM "xmg-mctag.dtd,xml">
+
+<mcgrammar>
+    <lemmas>
+
+<!-- GLAGOLI -->
+
+	<lemma name="biti"  cat="V" >
+	    <anchor tree_id="family[@name=Cop]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="biti"  cat="V" >
+	    <anchor tree_id="family[@name=AuxProslo]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+        <lemma name="smrkavati"  cat="V" >
+            <anchor tree_id="family[@name=VCl]" >
+                <coanchor node_id="se" cat = "Cl">
+		     <lex>se</lex>
+                </coanchor>
+            </anchor>
+        </lemma>
+
+	<lemma name="znati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dir]" >
+               <filter>
+		<fs>
+		 <f name="pasiv">
+		  <sym value="-"/>
+		 </f>
+		</fs>
+	       </filter> 
+            </anchor>
+        </lemma>
+
+       <lemma name="voleti"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dir]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+	    <anchor tree_id="family[@name=n0Vn1dirNer]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+        <lemma name="spavati"  cat="V" >
+            <anchor tree_id="family[@name=n0V]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="nemati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dir]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+	
+	<lemma name="zxiveti"  cat="V" >
+            <anchor tree_id="family[@name=n0Vpn1ind]" >
+            </anchor> 
+        </lemma>
+
+	<lemma name="zxiveti"  cat="V" >
+            <anchor tree_id="family[@name=n0Vad1]" >
+            </anchor> 
+        </lemma> 
+
+	<lemma name="stideti"  cat="V" >
+            <anchor tree_id="family[@name=n0ClVn1ind]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+	</lemma>
+
+       <lemma name="svitati"  cat="V" >
+            <anchor tree_id="family[@name=V]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+       <lemma name="igrati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+      <lemma name="igrati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="sxaliti"  cat="V" >
+            <anchor tree_id="family[@name=n0ClV]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="hteti"  cat="V" >
+            <anchor tree_id="family[@name=AuxBuduce]" >
+                <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="boleti"  cat="V" >
+            <anchor tree_id="family[@name=n1lsubVn0]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="pomagati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1ind]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="smetati"  cat="V" >
+            <anchor tree_id="family[@name=n1lsubVs0]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="davati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dirn2ind]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="stavlxati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dirad2]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="cyesxlxati"  cat="V" >
+            <anchor tree_id="family[@name=n0Vn1dirref]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="odgovarati"  cat="V" >
+            <anchor tree_id="family[@name=n1lsubVs0]" >
+            </anchor>
+        </lemma>
+
+
+<!-- IMENICE -->
+
+	<lemma name="Sonxa"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="Sonxa"  cat="N" >
+	    <anchor tree_id="family[@name=n0vN]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="Marko"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="Marko"  cat="N" >
+	    <anchor tree_id="family[@name=n0vN]" >
+            </anchor>
+        </lemma>
+
+	<lemma name="Dyon"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="Dyon"  cat="N" >
+	    <anchor tree_id="family[@name=n0vN]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="lutka"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="krevet"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="krevet"  cat="N" >
+	    <anchor tree_id="family[@name=n0vN]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+	
+	<lemma name="glava"  cat="N" >
+	    <anchor tree_id="family[@name=N]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="glava"  cat="N" >
+	    <anchor tree_id="family[@name=n0vN]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- ZAMENICE -->
+
+	<lemma name="ona"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ona"  cat="PRO" >
+	    <anchor tree_id="family[@name=n0vN]" > %napomenuti u tekstu da pod N ovde podrazumevam i PRO
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="on"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="on"  cat="PRO" >
+	    <anchor tree_id="family[@name=n0vN]" > 
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ovo"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ovo"  cat="PRO" >
+	    <anchor tree_id="family[@name=n0vN]" > 
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="sebe"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ko"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ko"  cat="PRO" >
+	    <anchor tree_id="family[@name=n0vN]" > 
+		    <filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="sxta"  cat="PRO" >
+	    <anchor tree_id="family[@name=PRO]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- PRIDEVI -->
+
+	<lemma name="pametan"  cat="A" >
+	    <anchor tree_id="family[@name=n0vA]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="kakav"  cat="A" >
+	    <anchor tree_id="family[@name=n0vA]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- KLITIKE 20.12. odavde sam obrisala oba se i stavila ih u fajl Ostacif.mg-->
+
+	<lemma name="se"  cat="Cl" >
+	    <anchor tree_id="family[@name=Se]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+	
+
+<!-- PREDLOZI -->
+
+	<lemma name="u"  cat="P" >
+	    <anchor tree_id="family[@name=P]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- PRILOZI -->
+
+	<lemma name="ovde"  cat="ADV" >
+	    <anchor tree_id="family[@name=ADV]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ovde"  cat="ADV" >
+	    <anchor tree_id="family[@name=n0vAd]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="ovde"  cat="ADV" >
+	    <anchor tree_id="family[@name=Adv]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="gde"  cat="ADV" >
+	    <anchor tree_id="family[@name=ADV]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="gde"  cat="ADV" >
+	    <anchor tree_id="family[@name=Adv]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="gde"  cat="ADV" >
+	    <anchor tree_id="family[@name=n0lsubvAd]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="dobro"  cat="ADV" >
+	    <anchor tree_id="family[@name=ADV]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="dobro"  cat="ADV" >
+	    <anchor tree_id="family[@name=Adv]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="dobro"  cat="ADV" >
+	    <anchor tree_id="family[@name=n0lsubvAd]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- KOMPLEMENTIZATORI -->
+
+	<lemma name="sxto"  cat="C" >
+	    <anchor tree_id="family[@name=C]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+	<lemma name="da"  cat="C" >
+	    <anchor tree_id="family[@name=C]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- NEG -->
+
+	<lemma name="ne"  cat="NEG" >
+	    <anchor tree_id="family[@name=Neg]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+<!-- BROJEVI -->
+
+	<lemma name="dva"  cat="NUM" >
+	    <anchor tree_id="family[@name=Num]" >
+		<filter>
+                    <fs/>
+                </filter>
+            </anchor>
+        </lemma>
+
+    </lemmas>
+</mcgrammar>
+

@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE mcgrammar SYSTEM "xmg-mctag.dtd,xml">
+
+<mcgrammar>
+	<morphs>
+
+<!-- GLAGOLI -->
+
+	<morph lex="je" >
+	  <lemmaref cat="V" name="biti" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="cop">
+		    <sym value="+"/>
+		  </f>
+		<f name="aux">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="je" >
+	  <lemmaref cat="V" name="biti" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="cop">
+		    <sym value="-"/>
+		  </f>
+		<f name="aux">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="su" >
+	  <lemmaref cat="V" name="biti" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="p"/>
+		  </f>
+		<f name="cop">
+		    <sym value="+"/>
+		  </f>
+		<f name="aux">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="su" >
+	  <lemmaref cat="V" name="biti" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="p"/>
+		  </f>
+		<f name="cop">
+		    <sym value="-"/>
+		  </f>
+		<f name="aux">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="cxe" >
+	  <lemmaref cat="V" name="hteti" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="cop">
+		    <sym value="-"/>
+		  </f>
+		<f name="aux">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="voleo" >
+            <lemmaref cat="V"  name="voleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="G"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+	<morph lex="volela" >
+            <lemmaref cat="V"  name="voleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="G"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="gen">
+		    <sym value="f"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+	<morph lex="cyesxlxa" >
+            <lemmaref cat="V"  name="cyesxlxa" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+	          <f name="form">
+		    <sym value="P"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+	<morph lex="sxaliti" >
+            <lemmaref cat="V"  name="sxaliti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="W"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+
+	<morph lex="sxali" >
+            <lemmaref cat="V"  name="sxaliti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+	          <f name="form">
+		    <sym value="P"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+	<morph lex="voleti" >
+            <lemmaref cat="V"  name="voleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="W"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+
+	<morph lex="video" >
+            <lemmaref cat="V"  name="videti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="G"/>
+		  </f>
+		  <f name="form">
+		    <sym value="C"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>	
+
+	<morph lex="volxena" >
+	  <lemmaref cat="V" name="voleti" >
+                <fs>
+		<f name="mod">
+		    <sym value="T"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+        <morph lex="vidim" >
+            <lemmaref cat="V"  name="videti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="x"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+        <morph lex="smrkava" >
+            <lemmaref cat="V"  name="smrkavati" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+
+       <morph lex="voli" >
+            <lemmaref cat="V"  name="voleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	 <morph lex="vole" >
+            <lemmaref cat="V"  name="voleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="p"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="volxen" >
+	  <lemmaref cat="V" name="voleti" >
+                <fs>
+		<f name="mod">
+		    <sym value="T"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+        <morph lex="svicxe" >
+            <lemmaref cat="V"  name="svitati" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="boli" >
+            <lemmaref cat="V"  name="boleti" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>   
+     
+	<morph lex="igra" >
+            <lemmaref cat="V"  name="igrati" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="spava" >
+            <lemmaref cat="V"  name="spavati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		    <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="spavaju" >
+            <lemmaref cat="V"  name="spavati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="p"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		    <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>	
+
+	<morph lex="stidi" >
+            <lemmaref cat="V"  name="stideti" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="pomazxe" >
+            <lemmaref cat="V"  name="pomagati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="zxivi" >
+            <lemmaref cat="V"  name="zxiveti" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="smeta" >
+            <lemmaref cat="V"  name="smetati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="stavlxa" >
+            <lemmaref cat="V"  name="stavlxati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="nema" >
+            <lemmaref cat="V"  name="nemati" >
+                <fs>
+		  <f name="mod">
+		    <sym value="I"/>
+		  </f>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	          <f name="num">
+		    <sym value="s"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="pomagano" >
+            <lemmaref cat="V"  name="pomagati" >
+                <fs>
+		<f name="mod">
+		    <sym value="T"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="n"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="daje" >
+            <lemmaref cat="V"  name="davati" >
+                <fs>
+		    <f name="pers">
+		    <sym value="z"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		    <f name="mod">
+		    <sym value="I"/>
+		  </f>
+                    <f name="form">
+		    <sym value="P"/>
+		  </f>
+		  <f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="odgovara" >
+	  <lemmaref cat="V" name="odgovarati" >
+                <fs>
+		  <f name="form">
+		    <sym value="P"/>
+		  </f>
+		<f name="mod">
+		    <sym value="I"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="cop">
+		    <sym value="-"/>
+		  </f>
+		<f name="aux">
+		    <sym value="-"/>
+		  </f>
+		<f name="neg">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+
+<!-- IMENICE -->
+
+	<morph lex="Sonxa" >
+	  <lemmaref cat="N" name="Sonxa" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Sonxu" >
+            <lemmaref cat="N" name="Sonxa" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Dyon" >
+	  <lemmaref cat="N" name="Dyon" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="pers">
+		    <sym value="z"/>
+		  </f>
+		  <f name="gen">
+		    <sym value="m"/>
+		  </f>
+	            <f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Dyona" >
+            <lemmaref cat="N" name="Dyon" >
+                <fs>
+		  <f name="case">
+		    <sym value="2"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Dyona" >
+            <lemmaref cat="N" name="Dyon" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="park" >
+            <lemmaref cat="N" name="park" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="park" >
+            <lemmaref cat="N" name="park" >
+                 <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="parku" >
+            <lemmaref cat="N" name="park" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="dinara" >
+            <lemmaref cat="N" name="dinar" >
+                <fs>
+		  <f name="case">
+		    <sym value="2"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+
+	<morph lex="lutku" >
+            <lemmaref cat="N" name="lutka" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Marko" >
+            <lemmaref cat="N"  name="Marko" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+        <morph lex="Marka" >
+            <lemmaref cat="N"  name="Marko" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="Marku" >
+            <lemmaref cat="N"  name="Marko" >
+                <fs>
+		  <f name="case">
+		    <sym value="3"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="krevet" >
+            <lemmaref cat="N"  name="krevet" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="krevet" >
+            <lemmaref cat="N"  name="krevet" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="krevetu" >
+            <lemmaref cat="N"  name="krevet" >
+                <fs>
+		  <f name="case">
+		    <sym value="7"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+	</morph>
+	
+	<morph lex="glava" >
+            <lemmaref cat="N"  name="glava" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="glavu" >
+            <lemmaref cat="N"  name="glava" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+<!-- ZAMENICE -->
+
+	<morph lex="on" >
+            <lemmaref cat="PRO" name="on" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+	
+	<morph lex="nxega" >
+            <lemmaref cat="PRO" name="on" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="mu" >
+            <lemmaref cat="Cl"  name="on" >
+                <fs/>
+            </lemmaref>
+        </morph>
+
+	<morph lex="ona" >
+            <lemmaref cat="PRO" name="ona" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="nxu" >
+            <lemmaref cat="PRO" name="ona" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+       
+	<morph lex="nxoj" >
+	  <lemmaref cat="PRO" name="ona" >
+                <fs>
+		  <f name="case">
+		    <sym value="3"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="sebe" >
+            <lemmaref cat="PRO" name="sebe" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		<f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="koji" >
+            <lemmaref cat="PRO" name="koji" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+
+	<morph lex="sxta" >
+            <lemmaref cat="PRO" name="sxta" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="sxta" >
+            <lemmaref cat="PRO" name="sxta" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="cyemu" >
+            <lemmaref cat="PRO" name="sxta" >
+                <fs>
+		  <f name="case">
+		    <sym value="7"/>
+		  </f>
+		<f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="ko" >
+            <lemmaref cat="PRO" name="ko" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+
+	<morph lex="kome" >
+            <lemmaref cat="PRO" name="ko" >
+                <fs>
+		  <f name="case">
+		    <sym value="3"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="koga" >
+            <lemmaref cat="PRO" name="ko" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="ovo" >
+            <lemmaref cat="PRO" name="ovo" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="n"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+<!-- PRIDEVI-->
+
+	<morph lex="pametan" >
+            <lemmaref cat="A" name="pametan" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="pametna" >
+            <lemmaref cat="A" name="pametan" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="pametan" >
+            <lemmaref cat="A" name="pametan" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="kakav" >
+            <lemmaref cat="A" name="kakav" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="kakva" >
+            <lemmaref cat="A" name="kakav" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="f"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+	
+<!-- PRILOZI-->
+
+       <morph lex="danas" >
+            <lemmaref cat="ADV"  name="danas" >
+                <fs/>
+            </lemmaref>
+        </morph>
+
+       <morph lex="prlxavo" >
+            <lemmaref cat="ADV"  name="prlxav" >
+                <fs/>
+            </lemmaref>
+        </morph>
+        
+	<morph lex="ovde" >
+	  <lemmaref cat="ADV" name="ovde" >
+		<fs>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="gde" >
+	  <lemmaref cat="ADV" name="gde" >
+		<fs>
+		  <f name="wh">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="dobro" >
+	  <lemmaref cat="ADV" name="dobro" >
+		<fs>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+<!-- ENKLITIKE 20.12. obrisala sam se cija je kategorija se, u Ostacif.mg je -->	
+	
+	<morph lex="se" >
+	  <lemmaref cat="Cl" name="se" >
+                <fs>
+		  <f name="ref">
+		    <sym value="+"/>
+		  </f>
+		<f name="rank">
+		    <sym value="4"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	
+<!-- PREDLOZI -->
+
+	<morph lex="u" >
+	  <lemmaref cat="P" name="u" >
+                <fs>
+		  <f name="case">
+		    <sym value="4"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="u" >
+	  <lemmaref cat="P" name="u" >
+                <fs>
+		  <f name="case">
+		   <sym value="7"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+<!-- KOMPLEMENTIZATORI -->
+
+	<morph lex="sxto" >
+	  <lemmaref cat="C" name="sxto" >
+                <fs>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="da" >
+	  <lemmaref cat="C" name="da" >
+                <fs>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+	<morph lex="koji" >
+            <lemmaref cat="C" name="koji" >
+                <fs>
+		  <f name="case">
+		    <sym value="1"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+<!-- NEG -->
+
+	<morph lex="ne" >
+	  <lemmaref cat="NEG" name="ne" >
+                <fs>
+		  <f name="neg">
+		    <sym value="+"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+	
+
+<!-- BROJEVI -->
+
+	<morph lex="dva" >
+            <lemmaref cat="NUM" name="dva" >
+                <fs>
+		<f name="case">
+		    <sym value="2"/>
+		  </f>
+		  <f name="wh">
+		    <sym value="-"/>
+		  </f>
+		<f name="pers">
+		    <sym value="z"/>
+		  </f>
+		<f name="num">
+		    <sym value="s"/>
+		  </f>
+		<f name="gen">
+		    <sym value="m"/>
+		  </f>
+		</fs>
+            </lemmaref>
+        </morph>
+
+</morphs>
+</mcgrammar>
