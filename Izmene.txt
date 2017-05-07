@@ -1,0 +1,22 @@
++++7. maj 2017. +++
+
+- omoguceno prepoznavanje recenicnog subjekta. Ne koristim za to klasu ZavisnaKomp, tako da ona trenutno nema namenu. Klasa za izricni subjekat sada izgleda ovako:
+
+class IzricniSubjekat 
+import
+	GlagolskiArgument[]
+declare
+	?xS0 ?xC ?xS00
+{
+	<syn>{
+		node xS{
+			node xVP
+			node xS0 (color = red, mark = nadj) [cat = S, top = [func = sub]] {
+				node xC (color = red, mark = subst) [cat = C]	% 17.12. stavila sam mark = subst samo da bi radilo parsiranje
+				node xS00 (color = red, mark = foot) [cat = S, top = [mod = I, wh = -]] 
+				}
+		}
+	}
+}
+
+- ubacila sam klasu IzmestanjeFraze i nju sada importuje klasa IzmestenaPP, ali i dalje ne radi. Razdvojila sam klase Izmestanje, za pojedinacne argumente, i klasu Izmestanje fraze, za one koji imaju vise od jednog elementa (kao PP fraza). 
